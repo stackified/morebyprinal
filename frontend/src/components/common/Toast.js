@@ -5,14 +5,6 @@ const Toast = ({ toast, onClose }) => {
   const { id, type, title, message, duration = 3000 } = toast;
   const [isExiting, setIsExiting] = useState(false);
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      handleClose();
-    }, duration);
-
-    return () => clearTimeout(timer);
-  }, [id, duration, handleClose]);
-
   const handleClose = useCallback(() => {
     setIsExiting(true);
     // Delay the actual removal to allow animation to complete
@@ -20,6 +12,14 @@ const Toast = ({ toast, onClose }) => {
       onClose(id);
     }, 300); // Match the animation duration
   }, [onClose, id]);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      handleClose();
+    }, duration);
+
+    return () => clearTimeout(timer);
+  }, [id, duration, handleClose]);
 
   const getIcon = () => {
     switch (type) {
