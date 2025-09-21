@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ShoppingCart } from 'lucide-react';
+import { getImagePath } from '../../utils/pathUtils';
 
 const ProductCard = ({ product }) => {
   const [isHovered, setIsHovered] = useState(false);
@@ -17,7 +18,7 @@ const ProductCard = ({ product }) => {
           <div className="relative w-full h-80 overflow-hidden">
             {/* Main Image */}
             <img
-              src={product.images[0] || './images/placeholder-product.jpg'}
+              src={product.images[0] || getImagePath('images/placeholder-product.jpg')}
               alt={product.name}
               className={`w-full h-80 object-cover transition-all duration-700 transform group-hover:scale-110 ${
                 isHovered && product.images[1] ? 'opacity-0' : 'opacity-100'

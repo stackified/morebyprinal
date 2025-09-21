@@ -1,3 +1,5 @@
+import { getImagePath } from '../utils/pathUtils';
+
 // Product data structure
 export const ProductModel = {
   id: '',
@@ -18,6 +20,13 @@ export const ProductModel = {
   updatedAt: ''
 };
 
+// Helper function to create product images with correct paths
+const createProductImages = (baseName) => [
+  getImagePath(`images/products/${baseName}-1.jpg`),
+  getImagePath(`images/products/${baseName}-2.jpg`),
+  getImagePath(`images/products/${baseName}-3.jpg`)
+];
+
 // Sample product data for development
 export const sampleProducts = [
   {
@@ -25,11 +34,7 @@ export const sampleProducts = [
     name: 'Durga',
     price: 899,
     originalPrice: 1299,
-    images: [
-      './images/products/durga-1.jpg',
-      './images/products/durga-2.jpg',
-      './images/products/durga-3.jpg'
-    ],
+    images: createProductImages('durga'),
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
     description: 'Durga is a bold black top featuring intricate lace detailing and a dramatic backless design. Perfect for evening wear and special occasions.',
     shortDescription: 'Black top with intricate lace detailing',
@@ -46,11 +51,7 @@ export const sampleProducts = [
     name: 'Shakti',
     price: 899,
     originalPrice: 1299,
-    images: [
-      './images/products/shakti-1.jpg',
-      './images/products/shakti-2.jpg',
-      './images/products/shakti-3.jpg'
-    ],
+    images: createProductImages('shakti'),
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
     description: 'Shakti is a powerful red top with intricate lace detailing and a dramatic backless design. Long in the front and open at the back, it\'s made to turn heads with elegance and fire.',
     shortDescription: 'Red top with intricate lace detailing',
@@ -67,11 +68,7 @@ export const sampleProducts = [
     name: 'Harsha',
     price: 599,
     originalPrice: 899,
-    images: [
-      './images/products/harsha-1.jpg',
-      './images/products/harsha-2.jpg',
-      './images/products/harsha-3.jpg'
-    ],
+    images: createProductImages('harsha'),
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
     description: 'Harsha is a pure cotton yellow short kurti with beautiful floral patterns. Perfect for casual wear and comfortable all-day use.',
     shortDescription: 'Yellow cotton kurti with floral patterns',
@@ -88,11 +85,7 @@ export const sampleProducts = [
     name: 'Neha',
     price: 599,
     originalPrice: 899,
-    images: [
-      './images/products/neha-1.jpg',
-      './images/products/neha-2.jpg',
-      './images/products/neha-3.jpg'
-    ],
+    images: createProductImages('neha'),
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
     description: 'Neha is a pure cotton short kurti featuring vibrant floral patterns. Lightweight and comfortable for everyday wear.',
     shortDescription: 'White cotton kurti with floral patterns',
@@ -109,11 +102,7 @@ export const sampleProducts = [
     name: 'Radha',
     price: 1299,
     originalPrice: 1899,
-    images: [
-      './images/products/radha-1.jpg',
-      './images/products/radha-2.jpg',
-      './images/products/radha-3.jpg'
-    ],
+    images: createProductImages('radha'),
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
     description: 'Radha is an elegant peacock blue lehenga choli with intricate zari work and mirror embellishments. Perfect for festivals and special occasions.',
     shortDescription: 'Peacock blue lehenga choli with zari work',
@@ -130,11 +119,7 @@ export const sampleProducts = [
     name: 'Sanjh',
     price: 799,
     originalPrice: 1199,
-    images: [
-      './images/products/sanjh-1.jpg',
-      './images/products/sanjh-2.jpg',
-      './images/products/sanjh-3.jpg'
-    ],
+    images: createProductImages('sanjh'),
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
     description: 'Sanjh is a beautiful evening dress in deep teal with elegant draping and subtle sequin work. Ideal for dinner parties and evening events.',
     shortDescription: 'Deep teal evening dress with sequins',
@@ -151,11 +136,7 @@ export const sampleProducts = [
     name: 'Shreya',
     price: 699,
     originalPrice: 999,
-    images: [
-      './images/products/shreya-1.jpg',
-      './images/products/shreya-2.jpg',
-      './images/products/shreya-3.jpg'
-    ],
+    images: createProductImages('shreya'),
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
     description: 'Shreya is a comfortable cotton top in soft mint green with delicate embroidery. Perfect for casual outings and everyday wear.',
     shortDescription: 'Mint green cotton top with embroidery',

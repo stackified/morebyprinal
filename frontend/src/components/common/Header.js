@@ -3,6 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import { ShoppingCart, Menu, X } from 'lucide-react';
 import { NAVIGATION_ITEMS } from '../../utils/constants';
+import { getImagePath } from '../../utils/pathUtils';
 
 const Header = () => {
   const location = useLocation();
@@ -37,7 +38,7 @@ const Header = () => {
                 isScrolled ? 'w-10 h-10' : 'w-14 h-14'
               }`}>
                 <img 
-                  src="./images/logo-removebg-preview.png" 
+                  src={getImagePath("images/logo-removebg-preview.png")} 
                   alt="MoreByPrinal Logo" 
                   className={`object-contain transition-all duration-300 ${
                     isScrolled ? 'w-10 h-10' : 'w-14 h-14'
