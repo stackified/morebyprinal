@@ -21,8 +21,11 @@ import Terms from './pages/Terms';
 const AppContent = () => {
   const { toasts, removeToast } = useToast();
 
+  // Determine basename based on environment
+  const basename = process.env.NODE_ENV === 'production' ? '/morebyprinal' : '/morebyprinal';
+
   return (
-    <Router basename="/morebyprinal">
+    <Router basename={basename}>
       <div className="min-h-screen bg-light-cream">
         <Header />
         <main className="pt-20">
