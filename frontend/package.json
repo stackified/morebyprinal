@@ -22,7 +22,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://stackified.github.io/morebyprinal",
+  "homepage": "https://stackified.github.io/morebyprinal/",
   "eslintConfig": {
     "extends": [
       "react-app",

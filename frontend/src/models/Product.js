@@ -26,9 +26,9 @@ export const sampleProducts = [
     price: 899,
     originalPrice: 1299,
     images: [
-      '/images/products/durga-1.jpg',
-      '/images/products/durga-2.jpg',
-      '/images/products/durga-3.jpg'
+      './images/products/durga-1.jpg',
+      './images/products/durga-2.jpg',
+      './images/products/durga-3.jpg'
     ],
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
     description: 'Durga is a bold black top featuring intricate lace detailing and a dramatic backless design. Perfect for evening wear and special occasions.',
@@ -47,9 +47,9 @@ export const sampleProducts = [
     price: 899,
     originalPrice: 1299,
     images: [
-      '/images/products/shakti-1.jpg',
-      '/images/products/shakti-2.jpg',
-      '/images/products/shakti-3.jpg'
+      './images/products/shakti-1.jpg',
+      './images/products/shakti-2.jpg',
+      './images/products/shakti-3.jpg'
     ],
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
     description: 'Shakti is a powerful red top with intricate lace detailing and a dramatic backless design. Long in the front and open at the back, it\'s made to turn heads with elegance and fire.',
@@ -68,9 +68,9 @@ export const sampleProducts = [
     price: 599,
     originalPrice: 899,
     images: [
-      '/images/products/harsha-1.jpg',
-      '/images/products/harsha-2.jpg',
-      '/images/products/harsha-3.jpg'
+      './images/products/harsha-1.jpg',
+      './images/products/harsha-2.jpg',
+      './images/products/harsha-3.jpg'
     ],
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
     description: 'Harsha is a pure cotton yellow short kurti with beautiful floral patterns. Perfect for casual wear and comfortable all-day use.',
@@ -89,9 +89,9 @@ export const sampleProducts = [
     price: 599,
     originalPrice: 899,
     images: [
-      '/images/products/neha-1.jpg',
-      '/images/products/neha-2.jpg',
-      '/images/products/neha-3.jpg'
+      './images/products/neha-1.jpg',
+      './images/products/neha-2.jpg',
+      './images/products/neha-3.jpg'
     ],
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
     description: 'Neha is a pure cotton short kurti featuring vibrant floral patterns. Lightweight and comfortable for everyday wear.',
@@ -110,9 +110,9 @@ export const sampleProducts = [
     price: 1299,
     originalPrice: 1899,
     images: [
-      '/images/products/radha-1.jpg',
-      '/images/products/radha-2.jpg',
-      '/images/products/radha-3.jpg'
+      './images/products/radha-1.jpg',
+      './images/products/radha-2.jpg',
+      './images/products/radha-3.jpg'
     ],
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
     description: 'Radha is an elegant peacock blue lehenga choli with intricate zari work and mirror embellishments. Perfect for festivals and special occasions.',
@@ -131,9 +131,9 @@ export const sampleProducts = [
     price: 799,
     originalPrice: 1199,
     images: [
-      '/images/products/sanjh-1.jpg',
-      '/images/products/sanjh-2.jpg',
-      '/images/products/sanjh-3.jpg'
+      './images/products/sanjh-1.jpg',
+      './images/products/sanjh-2.jpg',
+      './images/products/sanjh-3.jpg'
     ],
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
     description: 'Sanjh is a beautiful evening dress in deep teal with elegant draping and subtle sequin work. Ideal for dinner parties and evening events.',
@@ -152,9 +152,9 @@ export const sampleProducts = [
     price: 699,
     originalPrice: 999,
     images: [
-      '/images/products/shreya-1.jpg',
-      '/images/products/shreya-2.jpg',
-      '/images/products/shreya-3.jpg'
+      './images/products/shreya-1.jpg',
+      './images/products/shreya-2.jpg',
+      './images/products/shreya-3.jpg'
     ],
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
     description: 'Shreya is a comfortable cotton top in soft mint green with delicate embroidery. Perfect for casual outings and everyday wear.',
@@ -173,9 +173,9 @@ export const sampleProducts = [
     price: 1599,
     originalPrice: 2299,
     images: [
-      '/images/products/astra-1.jpg',
-      '/images/products/astra-2.jpg',
-      '/images/products/astra-3.jpg'
+      './images/products/astra-1.jpg',
+      './images/products/astra-2.jpg',
+      './images/products/astra-3.jpg'
     ],
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
     description: 'Astra is a stunning golden saree with peacock feather motifs and intricate border work. A masterpiece for special celebrations.',
@@ -194,9 +194,9 @@ export const sampleProducts = [
     price: 899,
     originalPrice: 1299,
     images: [
-      '/images/products/kavya-1.jpg',
-      '/images/products/kavya-2.jpg',
-      '/images/products/kavya-3.jpg'
+      './images/products/kavya-1.jpg',
+      './images/products/kavya-2.jpg',
+      './images/products/kavya-3.jpg'
     ],
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
     description: 'Kavya is a elegant maroon kurti with beautiful block prints and comfortable fit. Perfect for office wear and semi-formal occasions.',
@@ -215,9 +215,9 @@ export const sampleProducts = [
     price: 1199,
     originalPrice: 1699,
     images: [
-      '/images/products/priya-1.jpg',
-      '/images/products/priya-2.jpg',
-      '/images/products/priya-3.jpg'
+      './images/products/priya-1.jpg',
+      './images/products/priya-2.jpg',
+      './images/products/priya-3.jpg'
     ],
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
     description: 'Priya is a beautiful indigo blue dress with flowing silhouette and delicate beadwork. Perfect for parties and special occasions.',
@@ -236,9 +236,9 @@ export const sampleProducts = [
     price: 799,
     originalPrice: 1099,
     images: [
-      '/images/products/meera-1.jpg',
-      '/images/products/meera-2.jpg',
-      '/images/products/meera-3.jpg'
+      './images/products/meera-1.jpg',
+      './images/products/meera-2.jpg',
+      './images/products/meera-3.jpg'
     ],
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
     description: 'Meera is a comfortable cotton top in warm coral with subtle geometric patterns. Great for casual wear and weekend outings.',
@@ -257,9 +257,9 @@ export const sampleProducts = [
     price: 1899,
     originalPrice: 2599,
     images: [
-      '/images/products/lakshmi-1.jpg',
-      '/images/products/lakshmi-2.jpg',
-      '/images/products/lakshmi-3.jpg'
+      './images/products/lakshmi-1.jpg',
+      './images/products/lakshmi-2.jpg',
+      './images/products/lakshmi-3.jpg'
     ],
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
     description: 'Lakshmi is an exquisite silk saree in rich burgundy with golden zari work and peacock feather border. Perfect for weddings and festivals.',
@@ -278,9 +278,9 @@ export const sampleProducts = [
     price: 999,
     originalPrice: 1399,
     images: [
-      '/images/products/sita-1.jpg',
-      '/images/products/sita-2.jpg',
-      '/images/products/sita-3.jpg'
+      './images/products/sita-1.jpg',
+      './images/products/sita-2.jpg',
+      './images/products/sita-3.jpg'
     ],
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
     description: 'Sita is a elegant olive green kurti with beautiful embroidery and comfortable fit. Perfect for office wear and formal occasions.',
@@ -299,9 +299,9 @@ export const sampleProducts = [
     price: 1299,
     originalPrice: 1799,
     images: [
-      '/images/products/ganga-1.jpg',
-      '/images/products/ganga-2.jpg',
-      '/images/products/ganga-3.jpg'
+      './images/products/ganga-1.jpg',
+      './images/products/ganga-2.jpg',
+      './images/products/ganga-3.jpg'
     ],
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
     description: 'Ganga is a flowing maxi dress in soft aqua blue with delicate lace details. Perfect for summer parties and beach weddings.',
@@ -320,9 +320,9 @@ export const sampleProducts = [
     price: 699,
     originalPrice: 999,
     images: [
-      '/images/products/yamuna-1.jpg',
-      '/images/products/yamuna-2.jpg',
-      '/images/products/yamuna-3.jpg'
+      './images/products/yamuna-1.jpg',
+      './images/products/yamuna-2.jpg',
+      './images/products/yamuna-3.jpg'
     ],
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
     description: 'Yamuna is a comfortable cotton top in soft lavender with subtle floral prints. Great for casual wear and everyday comfort.',
@@ -341,9 +341,9 @@ export const sampleProducts = [
     price: 1599,
     originalPrice: 2199,
     images: [
-      '/images/products/saraswati-1.jpg',
-      '/images/products/saraswati-2.jpg',
-      '/images/products/saraswati-3.jpg'
+      './images/products/saraswati-1.jpg',
+      './images/products/saraswati-2.jpg',
+      './images/products/saraswati-3.jpg'
     ],
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
     description: 'Saraswati is a elegant white saree with golden peacock motifs and intricate border work. Perfect for religious ceremonies and special occasions.',
@@ -362,9 +362,9 @@ export const sampleProducts = [
     price: 899,
     originalPrice: 1299,
     images: [
-      '/images/products/parvati-1.jpg',
-      '/images/products/parvati-2.jpg',
-      '/images/products/parvati-3.jpg'
+      './images/products/parvati-1.jpg',
+      './images/products/parvati-2.jpg',
+      './images/products/parvati-3.jpg'
     ],
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
     description: 'Parvati is a beautiful pink kurti with delicate embroidery and comfortable fit. Perfect for casual outings and everyday wear.',
@@ -383,9 +383,9 @@ export const sampleProducts = [
     price: 1199,
     originalPrice: 1699,
     images: [
-      '/images/products/kali-1.jpg',
-      '/images/products/kali-2.jpg',
-      '/images/products/kali-3.jpg'
+      './images/products/kali-1.jpg',
+      './images/products/kali-2.jpg',
+      './images/products/kali-3.jpg'
     ],
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
     description: 'Kali is a bold black dress with silver embellishments and dramatic silhouette. Perfect for evening parties and special events.',
@@ -404,9 +404,9 @@ export const sampleProducts = [
     price: 799,
     originalPrice: 1099,
     images: [
-      '/images/products/uma-1.jpg',
-      '/images/products/uma-2.jpg',
-      '/images/products/uma-3.jpg'
+      './images/products/uma-1.jpg',
+      './images/products/uma-2.jpg',
+      './images/products/uma-3.jpg'
     ],
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
     description: 'Uma is a comfortable cotton top in soft peach with subtle geometric patterns. Great for casual wear and weekend outings.',
@@ -425,9 +425,9 @@ export const sampleProducts = [
     price: 1799,
     originalPrice: 2499,
     images: [
-      '/images/products/annapurna-1.jpg',
-      '/images/products/annapurna-2.jpg',
-      '/images/products/annapurna-3.jpg'
+      './images/products/annapurna-1.jpg',
+      './images/products/annapurna-2.jpg',
+      './images/products/annapurna-3.jpg'
     ],
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
     description: 'Annapurna is a luxurious silk saree in rich golden yellow with intricate peacock feather motifs and zari work. Perfect for grand celebrations.',
@@ -446,9 +446,9 @@ export const sampleProducts = [
     price: 999,
     originalPrice: 1399,
     images: [
-      '/images/products/chandra-1.jpg',
-      '/images/products/chandra-2.jpg',
-      '/images/products/chandra-3.jpg'
+      './images/products/chandra-1.jpg',
+      './images/products/chandra-2.jpg',
+      './images/products/chandra-3.jpg'
     ],
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
     description: 'Chandra is a elegant silver grey kurti with beautiful embroidery and comfortable fit. Perfect for office wear and formal occasions.',
@@ -467,9 +467,9 @@ export const sampleProducts = [
     price: 1299,
     originalPrice: 1799,
     images: [
-      '/images/products/surya-1.jpg',
-      '/images/products/surya-2.jpg',
-      '/images/products/surya-3.jpg'
+      './images/products/surya-1.jpg',
+      './images/products/surya-2.jpg',
+      './images/products/surya-3.jpg'
     ],
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
     description: 'Surya is a vibrant orange dress with flowing silhouette and delicate beadwork. Perfect for parties and special occasions.',

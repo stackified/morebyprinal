@@ -37,7 +37,7 @@ const Header = () => {
                 isScrolled ? 'w-10 h-10' : 'w-14 h-14'
               }`}>
                 <img 
-                  src="/images/logo-removebg-preview.png" 
+                  src="./images/logo-removebg-preview.png" 
                   alt="MoreByPrinal Logo" 
                   className={`object-contain transition-all duration-300 ${
                     isScrolled ? 'w-10 h-10' : 'w-14 h-14'

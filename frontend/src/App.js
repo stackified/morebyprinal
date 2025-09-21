@@ -22,7 +22,7 @@ const AppContent = () => {
   const { toasts, removeToast } = useToast();
 
   return (
-    <Router>
+    <Router basename="/morebyprinal">
       <div className="min-h-screen bg-light-cream">
         <Header />
         <main className="pt-20">
